@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=651
+
+
+This script provides several examples of the Unix "uniq" utility emulated entirely with Vim script, found during some brief research through the Vim list archives. Like the original uniq, each requires the selected lines "uniq-ed" to already be sorted so that duplicates are adjacent.
+
+Note that there are generally two approches here. The first uses the getline() function to examine adjacent lines and is used by the first two examples. A second approach is illustrated by the last three examples which use a single global or substitution command to accomplish the same purpose.
+
+We share this compilation in hopes that it might be helpful. The actual origins of each section are documented below. Use at your own risk!
+
+
